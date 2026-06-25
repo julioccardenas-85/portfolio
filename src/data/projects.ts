@@ -23,6 +23,15 @@ export const projects: Project[] = [
        "/img/acade-mia08.png", "/img/acade-mia09.png", "/img/acade-mia10.png"],
   },
   {
+    title: "Clients Management System",
+    description: "CRUD web app for managing clients, including authentication. Built with Angular and deployed with Netlify.",
+    tech: ["Angular", "JavaScript", "TypeScript", "Tailwind CSS", "Netlify"],
+    slug: "clients-crud",
+    github: "https://github.com/julioccardenas-85/client-crud-app",
+    demo: "https://client-crud-app.netlify.app/",
+    images: ["/img/users01.png", "/img/users02.png", "/img/users03.png", "/img/users04.png"],
+  },
+  {
     title: "EMS",
     description: "Web system for monitoring and managing tickets machines for transit services. Frontend includes dashboards, real-time data visualization and user management, built with React and deployed with AWS.",
     tech: ["React", "JavaScript", "Bootstrap", "AWS"],
